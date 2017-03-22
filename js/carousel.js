@@ -39,7 +39,7 @@
 
         // Options
         if (options.fullWidth) {
-          options.dist = 0;
+          /* options.dist = 0;
           var firstImage = view.find('.carousel-item img').first();
           if (firstImage.length) {
             imageHeight = firstImage.on('load', function(){
@@ -48,7 +48,7 @@
           } else {
             imageHeight = view.find('.carousel-item').first().height();
             view.css('height', imageHeight);
-          }
+          } */
 
           // Offset fixed items when indicators.
           if (showIndicators) {
